@@ -1,1 +1,80 @@
+# Caso Práctico – Técnicas de Producción Industrial de Software
 
+## Descripción general
+
+Este repositorio contiene el desarrollo del caso práctico de la asignatura **Técnicas de Producción Industrial de Software**, enfocado en el análisis de datos utilizando Python y Google Colab. El objetivo principal fue aplicar técnicas de preparación de datos, análisis de correlación, visualización y clusterización mediante K-Means sobre el dataset **Prestige_modificado.csv**.
+
+El análisis busca identificar relaciones entre variables ocupacionales como educación, ingresos, participación femenina y prestigio ocupacional, además de detectar agrupaciones de ocupaciones con características similares mediante técnicas de minería de datos.
+
+---
+
+# Objetivos del proyecto
+
+- Preparar y validar un dataset utilizando Python.
+- Analizar correlaciones entre variables numéricas.
+- Interpretar relaciones asociadas al prestigio ocupacional.
+- Generar visualizaciones gráficas para apoyar el análisis.
+- Aplicar clusterización K-Means con diferentes cantidades de clústeres.
+- Interpretar grupos ocupacionales y relacionarlos con contextos organizacionales y tecnológicos.
+
+---
+
+# Herramientas utilizadas
+
+- Python
+- Google Colab
+- Pandas
+- Matplotlib
+- Scikit-learn
+- GitHub
+
+---
+
+# Estructura del repositorio
+
+| Archivo / Carpeta | Descripción |
+|---|---|
+| Caso_practico_Activity.ipynb | Notebook principal desarrollado en Google Colab |
+| Prestige_modificado.csv | Dataset utilizado para el análisis |
+| Informe_Tecnico.pdf / .docx | Documento final del caso práctico |
+| Capturas/ | Evidencias visuales del análisis |
+| README.md | Descripción general del proyecto |
+
+---
+
+# Actividades desarrolladas
+
+## 1. Preparación de datos
+- Carga del dataset.
+- Revisión de columnas y tipos de datos.
+- Validación de registros, nulos y duplicados.
+- Estadística descriptiva.
+
+## 2. Análisis de correlación
+- Construcción de matriz de correlación.
+- Interpretación de relaciones con la variable prestige.
+- Identificación de variables con mayor asociación.
+
+## 3. Visualización de datos
+- Gráficas de dispersión entre education y prestige.
+- Gráficas de dispersión entre income y prestige.
+
+## 4. Clusterización K-Means
+- Escalamiento de variables.
+- Aplicación de modelos con 4 y 5 clústeres.
+- Comparación e interpretación de grupos.
+
+---
+
+# Principales hallazgos
+
+- La educación presentó la relación positiva más fuerte con el prestigio ocupacional.
+- Los ingresos también mostraron una correlación positiva importante con el prestigio.
+- El algoritmo K-Means permitió identificar distintos perfiles ocupacionales.
+- El modelo de 4 clústeres ofreció una interpretación más clara y equilibrada para el caso práctico.
+
+---
+
+# Conclusión
+
+El desarrollo del caso práctico permitió aplicar técnicas de minería de datos dentro de un contexto relacionado con la producción industrial de software. El análisis realizado demuestra cómo los datos pueden utilizarse para apoyar procesos de toma de decisiones, segmentación de perfiles profesionales y análisis organizacional mediante herramientas de análisis y visualización en Python.
